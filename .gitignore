@@ -1,0 +1,46 @@
+# --- Python Virtual Environments ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE Specific ---
+# VS Code
+.vscode/
+.history/
+.python-version
+
+# PyCharm
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- OS-specific ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# --- Environment Variables / Secrets ---
+*.env
+*.env.*
+.envrc
